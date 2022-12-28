@@ -6,11 +6,7 @@ class Node{
 	Node* next;	
 	
 	public:
-//		Node();
-//		Node(int data){
-//			this->data= data;
-//			this->next= NULL;
-//		}
+
 	void insertFirst(int data);
 	void insertLast(int data);	
 	void insertMiddle(int data);
